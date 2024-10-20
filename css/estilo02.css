@@ -1,0 +1,134 @@
+body{
+    margin: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20pt;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 20px;
+    background-color: rgb(254, 229, 233);
+    align-items: center;
+    height: 300px;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 10pt;
+    padding: 20pt;
+    display: flex;
+}
+
+nav ul li{
+    justify-content: space-around;
+    margin-left: 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: rgb(172, 40, 40);
+    padding: 10px 15px;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover{
+    background-color: rgb(250, 218, 223);
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+}
+
+.logo img{
+    margin-left: 31%;
+    margin-top: 5%;
+    height: 170pt;
+}
+
+.contenedor{
+    background-image: linear-gradient(rgb(254, 229, 233), rgb(173, 126, 126));
+}
+
+.galeria{
+    display: flex;
+    flex-direction: row;
+    margin: 10px 0;
+    margin-left: 15%;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    gap: 120px;
+    object-fit: cover;
+}
+
+.imagen{
+    width: 450px;
+    height:550px;
+    margin-right: 20px;
+    padding: 15pt;
+    transition: 2s;
+}
+
+.galeria img:hover{
+    height: 600px;
+}
+
+.descripcion {
+    width: 50%;
+}
+
+h3{
+    margin: 0;
+    text-transform: uppercase;
+}
+
+h5{
+    text-decoration: underline;
+}
+
+.descripcion p{
+    text-align: left;
+}
+
+footer{
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.seccion{
+    text-align: center;
+    display: flex;
+    align-items: flex-start;
+    gap: 280px;
+    flex-grow: 1;
+    justify-content: center;
+}
+
+.logo-footer{
+    max-width: 100px;
+    justify-content: center;
+}
+
+.logo-footer img{
+    width: 200px;
+    margin-top: 25%;
+}
+
+.iconos{
+    display: flex;
+    justify-content: center;
+}
+
+.icono{
+    color: white;
+    margin: 5px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.contacto p{
+    font-size: 15pt;
+}
